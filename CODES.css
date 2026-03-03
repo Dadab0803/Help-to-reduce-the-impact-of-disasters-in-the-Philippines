@@ -7,6 +7,7 @@ html, body {
 #Geologic_hazards
 #Hydrometeorological_hazards
 #PAGASA_and_PHIVOLCS
+#Safety_Hazard_Area
 /* TOP */
 * {
     margin: 0;
@@ -44,31 +45,31 @@ body {
 
 }
 .Hazard_Title {
-    text-align: right;
+    text-align: left;
     font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
     font-size: 80px;
     color:white;
     -webkit-text-stroke: 2px #000000;
     margin: 0;
-    padding-right:10px;
+    padding-left:10px;
     
 }
 .Main_Text_Hazard {
-    text-align: right;
+    text-align: left;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 24px;
     color:white;
     -webkit-text-stroke: 0.5px #000000;
     padding-bottom: 20px;
     margin: 0px;
-    padding-right:10px;
+    padding-left:10px;
 
 }
 /* List */
 .geologic_hazards {
     display: inline-block;
-    margin-left: 165px;
-    width: 280px;
+    margin-left: 120px;
+    width: 265px;
 
 }
 .geologic_hazards_Title {
@@ -114,9 +115,8 @@ body {
 /*hydrometeorological_hazards*/
 .hydrometeorological_hazards{
     display: inline-block;
-    margin-left: 60px;
-
-    width: 400px;
+    margin-left: 10px;
+    width: 388px;
     
 }
 .hydrometeorological_hazards_Title{
@@ -137,6 +137,23 @@ body {
     font-family:Verdana, Geneva, Tahoma, sans-serif;
     font-size: 23px;
 }
+.safety_hazards{
+    display: inline-block;
+    margin-left: 10px;
+    width: auto;
+    margin-top: 0;
+    
+}
+.Safety_Hazard {
+    width: 236px;
+    height: auto;
+}
+.safety_hazards_Title_Button{
+
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 23px;
+}
+
 /* Main Text Area */
 .Geologic_hazards_Text_Title{
     margin-top: 50px;
@@ -178,6 +195,12 @@ body {
     font-size: 35px;
     margin-bottom:0 ;
     padding: 0;
+}
+.safety_hazards_1 {
+    display: inline-block;
+    margin-left: 92px;
+    margin-top:20px;
+    width: 265px;
 }
 
 /* ============================= */
@@ -227,6 +250,7 @@ img {
 
     /* STACK SECTIONS VERTICALLY */
     .geologic_hazards,
+    .safety_hazards,
     .hydrometeorological_hazards {
         display: block;
         width: 100%;
@@ -240,6 +264,7 @@ img {
     .geologic_hazards_3,
     .hydrometeorological_hazards_1,
     .hydrometeorological_hazards_2,
+    .Safety_Hazard,
     .Pictures {
     width: auto; 
     max-width: 100%;

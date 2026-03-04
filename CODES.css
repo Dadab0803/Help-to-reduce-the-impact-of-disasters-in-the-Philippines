@@ -35,6 +35,13 @@ body {
     padding: 20px;
     
 }
+.Video {
+    width: 100%;
+    max-width: 600px;   
+    margin: 20px auto;  
+    display: block;
+
+}
 /* Hazard Awarness */
 .Hazard_Awarness {
     width: 100%;     
